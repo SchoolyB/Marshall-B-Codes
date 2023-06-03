@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import marshall from '../src/assets/images/grayscaleMarshall.jpg'
 // IMPORT TECH STACK ICONS
 import css from './assets/images/techIcons/css.png'

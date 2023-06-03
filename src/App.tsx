@@ -22,6 +22,8 @@ import fastify from './assets/images/techIcons/fastify.png'
 import netlify from './assets/images/techIcons/netlify.png'
 import yarn from './assets/images/techIcons/yarn.png'
 import vercel from './assets/images/techIcons/vercel.png'
+import idm from './assets/videos/international-data-martix.mp4'
+import husk from './assets/videos/husk.mp4'
 // TODO import vite icon
 // TODO import express icon
 // TODO possibly import windows and render.com icons
@@ -135,7 +137,7 @@ export default function App() {
           <div className='individualProjectContainer'>
             <h4 className='projectHeading'>International Data Matrix</h4>
             <div className='projectImgContainer'>
-              {/* TODO add screenshot or video for project */}
+              <video className='projectVideo' src={idm} autoPlay muted loop />
             </div>
             <div className='projectDescriptionContainer'>
               <p className='projectDescription'>
@@ -163,9 +165,8 @@ export default function App() {
           {/* start of project 2 */}
           <div className='individualProjectContainer'>
             <h4 className='projectHeading'>Husk</h4>
-            <div className='projectImgContainer'>
-              {/* TODO add screenshot or video for project */}
-            </div>
+            <div className='projectImgContainer'></div>
+            <video className='projectVideo' src={husk} autoPlay muted loop />
             <div className='projectDescriptionContainer'>
               <p className='projectDescription'>
                 Husk is a simple shell built with Python that allows users to

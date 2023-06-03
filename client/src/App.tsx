@@ -29,9 +29,9 @@ export default function App() {
   return (
     <>
       {/* start of about me section */}
-      <div className='aboutMeContainer'>
+      <div className='aboutMeContainer sectionContainer'>
         <div className='aboutMeParaContainer'>
-          <h4 className='aboutMeParaHeading'>Who is Marshall B?</h4>
+          <h4 className='aboutMeParaHeading headings'>Who is Marshall B?</h4>
           <p className='aboutMePara'>
             A passionate Software Developer from Chicago, Illinois with a love
             for coding and providing solutions to the worlds problems through
@@ -40,15 +40,15 @@ export default function App() {
           </p>
         </div>
         <div className='aboutMeImgContainer'>
-          <img src={marshall} alt='Marshall B' />
+          <img className='imgOfMe' src={marshall} alt='Marshall B' />
         </div>
       </div>
       {/* end of about me section */}
 
       {/* start of techstack section */}
-      <div className='techStackContainer'>
+      <div className='techStackContainer sectionContainer'>
         {/* icon container */}
-        <h4 className='techstackHeading'>The Stack</h4>
+        <h4 className='techstackHeading headings'>Technologies</h4>
         {/* tech stack icons */}
         <div className='iconContainer'>
           {/* start of first row */}
@@ -128,58 +128,61 @@ export default function App() {
       {/* end of techstack section */}
       {/*start of projects section  */}
 
-      {/* start of project 1 */}
-      <div className='projectsContainer'>
-        <div className='individualProjectContainer'>
-          <h4 className='projectHeading'>International Data Matrix</h4>
-          <div className='projectImgContainer'>
-            {/* TODO add screenshot or video for project */}
+      <div className='projectsContainer sectionContainer'>
+        <h4 className='projectsContainerHeading headings'>Projects</h4>
+        {/* start of project 1 */}
+        <div className='projectRowContainer'>
+          <div className='individualProjectContainer'>
+            <h4 className='projectHeading'>International Data Matrix</h4>
+            <div className='projectImgContainer'>
+              {/* TODO add screenshot or video for project */}
+            </div>
+            <div className='projectDescriptionContainer'>
+              <p className='projectDescription'>
+                The International Data Matrix is a resource that anyone can use
+                to learn about a country's information.
+              </p>
+            </div>
+            <div className='projectLinks'>
+              <a
+                className='individualProjectLink'
+                href='https://international-data-matrix.vercel.app/'
+              >
+                Link
+              </a>
+              <a
+                className='individualProjectLink'
+                href='https://github.com/SchoolyB/International-Data-Matrix'
+              >
+                Repository
+              </a>
+            </div>
           </div>
-          <div className='projectDescriptionContainer'>
-            <p className='projectDescription'>
-              The International Data Matrix is a resource that anyone can use to
-              learn about a country's information.
-            </p>
-          </div>
-          <div className='projectLinks'>
-            <a
-              className='individualProjectLink'
-              href='https://international-data-matrix.vercel.app/'
-            >
-              Link
-            </a>
-            <a
-              className='individualProjectLink'
-              href='https://github.com/SchoolyB/International-Data-Matrix'
-            >
-              Repository
-            </a>
-          </div>
-        </div>
-        {/* end of project 1 */}
+          {/* end of project 1 */}
 
-        {/* start of project 2 */}
-        <div className='individualProjectContainer'>
-          <h4 className='projectHeading'>Husk</h4>
-          <div className='projectImgContainer'>
-            {/* TODO add screenshot or video for project */}
+          {/* start of project 2 */}
+          <div className='individualProjectContainer'>
+            <h4 className='projectHeading'>Husk</h4>
+            <div className='projectImgContainer'>
+              {/* TODO add screenshot or video for project */}
+            </div>
+            <div className='projectDescriptionContainer'>
+              <p className='projectDescription'>
+                Husk is a simple shell built with Python that allows users to
+                run a variety of commands.
+              </p>
+            </div>
+            <div className='projectLinks'>
+              <a
+                className='individualProjectLink'
+                href='https://github.com/SchoolyB/Husk'
+              >
+                Repository
+              </a>
+            </div>
           </div>
-          <div className='projectDescriptionContainer'>
-            <p className='projectDescription'>
-              Husk is a simple shell built with Python that allows users to run
-              a variety of commands.
-            </p>
-          </div>
-          <div className='projectLinks'>
-            <a
-              className='individualProjectLink'
-              href='https://github.com/SchoolyB/Husk'
-            >
-              Repository
-            </a>
-          </div>
+          {/* end of project 2 */}
         </div>
-        {/* end of project 2 */}
       </div>
       {/* end of projects section */}
     </>

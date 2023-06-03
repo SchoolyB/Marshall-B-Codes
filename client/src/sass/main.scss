@@ -5,9 +5,26 @@ body{
   padding: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  // justify-content: space-between;
   background-color: #F0EBEF;
 }
+
+
+
+
+
+.sectionContainer{
+  // border: solid 1px red;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
 //START OF ABOUT ME SECTION
 
 // about me section container
@@ -19,31 +36,48 @@ body{
   
   
 }
+
+// about me heading 
+
 // about me image container
 .aboutMeImgContainer{
   // border: 1px solid lime;
 margin: auto;
   height: auto;
 }
+.imgOfMe{
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
 
 // about me paragraph container
 .aboutMeParaContainer{
   // border: 1px solid red;
   width: 50%;
+  margin: auto;
 }
 
 // about me paragraph heading
 .aboutMeParaHeading{
 text-align: center;
+font-size: 2rem;
+
+
 }
 
 // about me paragraph
 .aboutMePara{
   // border: solid 1px blue;
   word-spacing: .2rem;
-  line-height: 3.5rem;
+  line-height: 3rem;
   font-size: 2rem;
-  font-weight: 600;
+  font-weight: 200;
+  font-family: 'Kanit';
+
 }
 
 //END OF ABOUT ME SECTION
@@ -58,6 +92,13 @@ text-align: center;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+}
+
+.techstackHeading{
+  margin-bottom: 1rem;
+  font-family: 'kanit';
+  font-weight: 400;
+  font-size: 3rem;
 }
 // icon container
 .iconContainer{
@@ -94,16 +135,43 @@ text-align: center;
 .projectsContainer{
   // background-color: darkcyan;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: auto;
   justify-content: space-around;
   margin-top: 5rem;
 }
 
+.projectsContainerHeading{
+  margin-bottom: 1rem;
+  font-family: 'kanit';
+    font-weight: 400;
+    font-size: 3rem;
+}
+
 .projectHeading{
-  font-weight: 700;
+  font-family: 'kanit';
+  font-weight: 400;
   font-size: 2rem;
   margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.projectDescription{
+  font-family: 'kanit';
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.projectRowContainer {
+  // background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 5rem;  
 }
 .individualProjectContainer{
   // background-color: darkgoldenrod;

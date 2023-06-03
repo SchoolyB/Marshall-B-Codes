@@ -1,0 +1,125 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F0EBEF;
+}
+//START OF ABOUT ME SECTION
+
+// about me section container
+.aboutMeContainer{
+  // background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  
+}
+// about me image container
+.aboutMeImgContainer{
+  // border: 1px solid lime;
+margin: auto;
+  height: auto;
+}
+
+// about me paragraph container
+.aboutMeParaContainer{
+  // border: 1px solid red;
+  width: 50%;
+}
+
+// about me paragraph heading
+.aboutMeParaHeading{
+text-align: center;
+}
+
+// about me paragraph
+.aboutMePara{
+  // border: solid 1px blue;
+  word-spacing: .2rem;
+  line-height: 3.5rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+//END OF ABOUT ME SECTION
+
+
+//START OF TECHSTACK SECTION
+
+// tech stack container
+.techStackContainer{
+  // background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+// icon container
+.iconContainer{
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  // background-color: blueviolet;
+}
+
+// each icon row
+.iconRow{
+  // background-color: chartreuse;
+  // border: solid 1px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+
+// each individual icon
+.icons{
+  background-color: white;
+  border-radius: 25px;
+  padding: .1rem;
+  margin: .2rem;
+}
+
+//END OF TECHSTACK SECTION
+
+
+//START OF PROJECTS SECTION
+
+.projectsContainer{
+  // background-color: darkcyan;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.projectHeading{
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.individualProjectContainer{
+  // background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column ;
+  text-align: center;
+  // border: solid. 1px blue;
+  width: 40%;
+  
+;
+}
+
+
+
+
+
+
+
+// END OF PROJECTS SECTION

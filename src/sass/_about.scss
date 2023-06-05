@@ -1,0 +1,59 @@
+// about me section container
+.aboutMeContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+// about me heading 
+.aboutMeParaHeading{
+  font-family: 'Kanit';
+  font-weight: 400;
+  font-size: 3rem;
+  text-align: center;
+}
+// about me image container
+.aboutMeImgContainer {
+  // border: 1px solid lime;
+  margin: auto;
+  height: auto;
+}
+
+.imgOfMe {
+  border-radius: 50%;
+  width: 90%;
+  height: auto;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+// about me paragraph container
+.aboutMeParaContainer {
+  // border: 1px solid red;
+  width: 50%;
+  margin: auto;
+}
+
+// about me paragraph heading
+.aboutMeParaHeading {
+  text-align: center;
+  font-size: 2rem;
+
+
+}
+
+// about me paragraph
+.aboutMePara {
+  // border: solid 1px blue;
+  word-spacing: .2rem;
+  line-height: 3rem;
+  font-size: 2rem;
+  font-weight: 200;
+  font-family: 'Kanit';
+
+}
+
+//END OF ABOUT ME SECTION

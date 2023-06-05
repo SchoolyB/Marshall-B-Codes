@@ -1,0 +1,59 @@
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+
+.projectsContainerHeading {
+  margin-bottom: 1rem;
+  font-family: 'kanit';
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.projectHeading {
+  font-family: 'kanit';
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.projectDescription {
+  font-family: 'kanit';
+  font-weight: 200;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.projectRowContainer {
+  // background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: auto;
+  width: 100%;
+  margin-bottom: 5rem;
+}
+
+.individualProjectContainer {
+  // background-color: darkgoldenrod;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  // border: solid. 1px blue;
+  width: 40%;
+
+  ;
+}
+
+
+.projectVideo {
+  border-radius: 25px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+}

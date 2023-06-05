@@ -1,0 +1,56 @@
+.contactContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.contactContainer h4{
+  font-family: kanit;
+  font-weight: 400;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  width: 30%;
+}
+
+form input{
+  margin-bottom: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+form textarea{
+  margin-bottom: 1rem;
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+  resize: none;  
+}
+
+form button{
+  padding: .5rem;
+  border-radius: 5px;
+  border: 1px solid #000;
+  background-color: #000;
+  color: #fff;
+  font-family: kanit;
+  font-weight: 400;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+form button:hover{
+  background-color: #F0EBEF;
+  color: #000;
+  transition: .5s;
+}

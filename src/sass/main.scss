@@ -1,4 +1,7 @@
-
+@import "about.scss";
+@import "contact.scss";
+@import "projects.scss";
+@import "tech.scss";
 
 body{
   margin: 0;
@@ -14,7 +17,6 @@ body{
 
 
 .sectionContainer{
-  // border: solid 1px red;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,179 +24,12 @@ body{
   margin: auto;
   width: 80%;
   margin-top: 4rem;
-  margin-bottom: 5rem;
+  margin-bottom: 6rem;
 }
 
-//START OF ABOUT ME SECTION
 
-// about me section container
-.aboutMeContainer{
-  // background-color: aqua;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  
-  
-}
-
-// about me heading 
-
-// about me image container
-.aboutMeImgContainer{
-  // border: 1px solid lime;
-margin: auto;
-  height: auto;
-}
-.imgOfMe{
-  border-radius: 50%;
-  width: 90%;
-  height: auto;
-  margin: auto;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-}
-
-// about me paragraph container
-.aboutMeParaContainer{
-  // border: 1px solid red;
-  width: 50%;
-  margin: auto;
-}
-
-// about me paragraph heading
-.aboutMeParaHeading{
-text-align: center;
-font-size: 2rem;
-
-
-}
-
-// about me paragraph
-.aboutMePara{
-  // border: solid 1px blue;
-  word-spacing: .2rem;
-  line-height: 3rem;
-  font-size: 2rem;
-  font-weight: 200;
-  font-family: 'Kanit';
-
-}
-
-//END OF ABOUT ME SECTION
-
-
-//START OF TECHSTACK SECTION
-
-// tech stack container
-.techStackContainer{
-  // background-color: bisque;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+footer{
   text-align: center;
-}
-
-.techstackHeading{
-  margin-bottom: 1rem;
-  font-family: 'kanit';
+  font-family: kanit;
   font-weight: 400;
-  font-size: 3rem;
 }
-// icon container
-.iconContainer{
-  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  // background-color: blueviolet;
-}
-
-// each icon row
-.iconRow{
-  // background-color: chartreuse;
-  // border: solid 1px black;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  
-}
-
-// each individual icon
-.icons{
-  background-color: white;
-  border-radius: 25px;
-  padding: .1rem;
-  margin: .2rem;
-}
-
-//END OF TECHSTACK SECTION
-
-
-//START OF PROJECTS SECTION
-
-.projectsContainer{
-  // background-color: darkcyan;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  justify-content: space-around;
-  margin-top: 5rem;
-}
-
-.projectsContainerHeading{
-  margin-bottom: 1rem;
-  font-family: 'kanit';
-    font-weight: 400;
-    font-size: 3rem;
-}
-
-.projectHeading{
-  font-family: 'kanit';
-  font-weight: 400;
-  font-size: 2rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.projectDescription{
-  font-family: 'kanit';
-  font-weight: 200;
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-}
-
-.projectRowContainer {
-  // background-color: darkgoldenrod;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin: auto;
-  width: 100%;
-  margin-bottom: 5rem;  
-}
-.individualProjectContainer{
-  // background-color: darkgoldenrod;
-  display: flex;
-  flex-direction: column ;
-  text-align: center;
-  // border: solid. 1px blue;
-  width: 40%;
-  
-;
-}
-
-
-.projectVideo{
-  border-radius: 25px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 1rem;
-}
-
-
-
-
-
-
-// END OF PROJECTS SECTION

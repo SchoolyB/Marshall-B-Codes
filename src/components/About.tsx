@@ -1,4 +1,4 @@
-import React from 'react'
+
 import marshall from '../assets/images/grayscaleMarshall.jpg'
 
 

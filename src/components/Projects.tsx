@@ -1,4 +1,4 @@
-import React from 'react'
+
 import idm from '../assets/videos/international-data-martix.mp4'
 import husk from '../assets/videos/husk.mp4'
 

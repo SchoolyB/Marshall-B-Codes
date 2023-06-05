@@ -1,4 +1,4 @@
-import React from 'react'
+
 import css from '../assets/images/techIcons/css.png'
 import sass from '../assets/images/techIcons/sass.png'
 import html from '../assets/images/techIcons/html.png'

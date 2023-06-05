@@ -1,4 +1,4 @@
-// import React from 'react'
+// 
 import ReactDOM from 'react-dom/client'
 import About from './components/About'
 import Contact from './components/Contact'

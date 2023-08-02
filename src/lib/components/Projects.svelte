@@ -11,7 +11,9 @@
     <div
       class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:m-auto maxsm:mb-10"
     >
-      <figure><img src={idm} alt="Shoes" /></figure>
+      <figure>
+        <img src={idm} alt="International Data MAtrix Home Page" />
+      </figure>
       <div class="card-body">
         <h2 class="card-title">The International Data Matrix</h2>
         <p>
@@ -48,7 +50,7 @@
     <div
       class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:mb-10 maxsm:m-auto"
     >
-      <figure><img src={portfolio} alt="Shoes" /></figure>
+      <figure><img src={portfolio} alt="My Portfolio" /></figure>
       <div class="card-body">
         <h2 class="card-title">Marshall B Codes</h2>
         <p>
@@ -78,7 +80,7 @@
     </div>
     <!-- STRATGG CARD -->
     <div class="card w-96 bg-[#222222] hadow-xl maxsm:w-78 maxsm:m-auto">
-      <figure><img src={stratgg} alt="Shoes" /></figure>
+      <figure><img src={stratgg} alt="StratGG Home Page" /></figure>
       <div class="card-body">
         <h2 class="card-title">StratGG</h2>
         <p>

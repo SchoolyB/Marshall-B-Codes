@@ -9,7 +9,7 @@
   <div id="projects" class=" flex flex-row justify-around maxsm:flex-col">
     <!-- IDM CARD -->
     <div
-      class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:mb-10 maxsm:m-auto maxsm:mb-10"
+      class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:m-auto maxsm:mb-10"
     >
       <figure><img src={idm} alt="Shoes" /></figure>
       <div class="card-body">
@@ -48,7 +48,6 @@
     <div
       class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:mb-10 maxsm:m-auto"
     >
-      <!-- TODO CHNAGE IMAGE TO SITE  -->
       <figure><img src={portfolio} alt="Shoes" /></figure>
       <div class="card-body">
         <h2 class="card-title">Marshall B Codes</h2>
@@ -79,7 +78,6 @@
     </div>
     <!-- STRATGG CARD -->
     <div class="card w-96 bg-[#222222] hadow-xl maxsm:w-78 maxsm:m-auto">
-      <!-- TODO CHNAGE IMAGE TO SITE  -->
       <figure><img src={stratgg} alt="Shoes" /></figure>
       <div class="card-body">
         <h2 class="card-title">StratGG</h2>

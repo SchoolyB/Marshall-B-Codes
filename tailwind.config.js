@@ -19,6 +19,8 @@ export default {
       mongodb: '#47A248',
       darkgrey: '#484848',
       lightgrey: '##F7F2F6',
+      black: '#000000',
+      white: '#FFFFFF',
       
       
     },

@@ -14,9 +14,9 @@
       <figure>
         <img src={idm} alt="International Data Matrix Home Page" />
       </figure>
-      <div class="card-body">
+      <div class="card-body grow-0">
         <h2 class="card-title">The International Data Matrix</h2>
-        <p>
+        <p class="mb-2">
           The International Data Matrix is a resource that anyone can use to
           learn about a country's historical, cultural, religious, geographical,
           geo-economical and geo-political information.
@@ -59,13 +59,13 @@
       class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:mb-10 maxsm:m-auto"
     >
       <figure><img src={portfolio} alt="My Portfolio" /></figure>
-      <div class="card-body">
+      <div class="card-body grow-0">
         <h2 class="card-title">Marshall B Codes</h2>
-        <p>
+        <p class="mb-2">
           My Portfolio Website. You are currently on it. I first built this site
           with TypeScript, React, and Sass. Since the initial build I started
           getting more comfortable with Sveltekit and TailwindCSS, so I decided
-          to rebuild
+          to rebuild.
         </p>
         <div class="card-actions">
           <a href="https://github.com/SchoolyB/Marshall-B-Codes">
@@ -89,13 +89,12 @@
     <!-- STRATGG CARD -->
     <div class="card w-96 bg-[#222222] hadow-xl maxsm:w-78 maxsm:m-auto">
       <figure><img src={stratgg} alt="StratGG Home Page" /></figure>
-      <div class="card-body">
+      <div class="card-body grow-0">
         <h2 class="card-title">StratGG</h2>
-        <p>
+        <p class="mb-2">
           Currently in development StratGGs goal will be to provide a platform
           for young gamers to get recognized by colleges and universities for
-          their skills in video games and also provide a platform to find
-          teammates and coaches to help them improve their skills.
+          their skills in video games.
         </p>
         <div class="card-actions">
           <a href="https://github.com/Stratgg/Stratgg">

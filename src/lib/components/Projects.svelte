@@ -114,11 +114,17 @@
           <div class="badge badge-secondary bg-svelte border-none mr-2">
             HTML
           </div>
+          <div class="badge badge-secondary bg-js border-none mr-2">
+            JavaScript
+          </div>
           <div class="badge badge-secondary bg-vite border-none mr-2">Vite</div>
+        </div>
+
+        <div id="portfolioTechRowTwo" class="flex flex-row">
           <div class="badge badge-secondary bg-tailwind border-none mr-2">
             TailwindCSS
           </div>
-          <div class="badge badge-secondary bg-dasiyui border-none">
+          <div class="badge badge-secondary bg-daisyui border-none">
             DaisyUI
           </div>
         </div>

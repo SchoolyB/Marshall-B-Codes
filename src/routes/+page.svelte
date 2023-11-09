@@ -27,7 +27,7 @@
           id="contactIcons"
           class="flex flex-row justify-center text-center mt-4"
         >
-          <a href="https://twitter.com/FedoraTippa" target="_blank">
+          <a href="https://twitter.com/Fedora__Tipper" target="_blank">
             <img src={twitter} class="w-12 h-12 m-2" />
           </a>
           <a href="https://www.linkedin.com/in/marshallbcodes/" target="_blank">

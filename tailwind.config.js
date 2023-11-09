@@ -17,6 +17,8 @@ export default {
       fastify: '#202020',
       sqlite: '#003B57',
       mongodb: '#47A248',
+      vite: '#646CFF',
+      dasiyui: '#1ad1a5',
       darkgrey: '#484848',
       lightgrey: '##F7F2F6',
       black: '#000000',

@@ -2,6 +2,7 @@
   import idm from "$lib/assets/idm.png";
   import portfolio from "$lib/assets/marshallbcodes.png";
   import stratgg from "$lib/assets/stratgg.png";
+  import aetheria_site from "$lib/assets/aetheria_site.mp4";
 </script>
 
 <div class="bg-darkgrey pt-5 text-[#F7F2F6] pb-10">
@@ -17,9 +18,9 @@
       <div class="card-body">
         <h2 class="card-title">The International Data Matrix</h2>
         <p>
-          The International Data Matrix is a resource that anyone can use to
-          learn about a country's historical, cultural, religious, geographical,
-          geo-economical and geo-political information.
+          **ARCHIVED** The International Data Matrix is a resource that anyone
+          can use to learn about a country's historical, cultural, religious,
+          geographical, geo-economical and geo-political information.
         </p>
         <div class="card-actions">
           <a href="https://github.com/SchoolyB/International-Data-Matrix">
@@ -39,6 +40,7 @@
           >
             React
           </div>
+          <div class="badge badge-secondary bg-vite border-none mr-2">Vite</div>
           <div class="badge badge-secondary bg-sass border-none">Sass</div>
         </div>
         <div id="idmTechRowTwo" class="flex flex-row">
@@ -86,16 +88,52 @@
         </div>
       </div>
     </div>
+    <!-- Aetheria Game-->
+    <div
+      class="card w-96 bg-[#222222] shadow-2xl maxsm:w-78 maxsm:mb-10 maxsm:m-auto"
+    >
+      <figure><video src={aetheria_site} /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Aetheria Text Game Website</h2>
+        <p>
+          A simple website for a text based game I am working on. The site
+          features instructions on how to install the game, a media page
+          showcasing several screenshots of the game during development, and a
+          patch notes page.
+        </p>
+        <div class="card-actions">
+          <a href="https://github.com/SchoolyB/aetheria-text-game">
+            <div class="badge badge-outline">GitHub</div>
+          </a>
+          <a href="https://aetheria-game.vercel.app/">
+            <div class="badge badge-outline">Link</div>
+          </a>
+        </div>
+        <h2 class="card-title">Tech Stack</h2>
+        <div id="portfolioTechRowOne" class="flex flex-row">
+          <div class="badge badge-secondary bg-svelte border-none mr-2">
+            HTML
+          </div>
+          <div class="badge badge-secondary bg-vite border-none mr-2">Vite</div>
+          <div class="badge badge-secondary bg-tailwind border-none mr-2">
+            TailwindCSS
+          </div>
+          <div class="badge badge-secondary bg-dasiyui border-none">
+            DaisyUI
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- STRATGG CARD -->
     <div class="card w-96 bg-[#222222] hadow-xl maxsm:w-78 maxsm:m-auto">
       <figure><img src={stratgg} alt="StratGG Home Page" /></figure>
       <div class="card-body">
         <h2 class="card-title">StratGG</h2>
         <p>
-          Currently in development StratGGs goal will be to provide a platform
-          for young gamers to get recognized by colleges and universities for
-          their skills in video games and also provide a platform to find
-          teammates and coaches to help them improve their skills.
+          **ON HOLD** StratGGs goal will be to provide a platform for young
+          gamers to get recognized by colleges and universities for their skills
+          in video games and also provide a platform to find teammates and
+          coaches to help them improve their skills.
         </p>
         <div class="card-actions">
           <a href="https://github.com/Stratgg/Stratgg">

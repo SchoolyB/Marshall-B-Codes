@@ -114,7 +114,7 @@
           <div class="badge badge-secondary bg-svelte border-none mr-2">
             HTML
           </div>
-          <div class="badge badge-secondary bg-js border-none mr-2">
+          <div class="badge badge-secondary bg-js border-none text-black mr-2">
             JavaScript
           </div>
           <div class="badge badge-secondary bg-vite border-none mr-2">Vite</div>
